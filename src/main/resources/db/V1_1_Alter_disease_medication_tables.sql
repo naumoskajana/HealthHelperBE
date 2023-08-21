@@ -1,0 +1,11 @@
+ALTER TABLE disease
+    ADD COLUMN description TEXT DEFAULT NULL;
+
+ALTER TABLE disease
+    ADD COLUMN image TEXT DEFAULT NULL;
+
+ALTER TABLE medication
+    ADD COLUMN description TEXT DEFAULT NULL;
+
+ALTER TABLE medication
+    ADD COLUMN image TEXT DEFAULT NULL;
